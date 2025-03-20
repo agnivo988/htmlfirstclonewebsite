@@ -1,0 +1,274 @@
+/* 
+
+------------TYPOGRAPHY-------------
+
+FONT SIZES
+12PX/16PX/20PX/24PX/32PX/40PX/48PX/62PX
+
+FONT WEIGHT
+400/700
+
+LINE HEIGHTS
+1.2/1.5
+
+LETTER SPACING
+0 / -2px
+
+FONT FAMILY
+poppins
+
+--------------COLORS---------------
+
+PRIMARY
+Base : #339af0 (sky blue)
+Tint : #d0ebff (arctic)
+Shade : #1c7ed6(deep sea)
+
+SECONDARY
+Base : #9775fa(Lavender)
+Tint : #e5dbff (Moonlight iris)
+Shade : #7048e8 (Velvet night)
+
+TERTIARY
+Base : #ff922b(pumpkin)
+Tint : #ffe8cc (dawn)
+shade : #f76707(Lava)
+
+GREY
+Base: #495057(slate)
+Tint: #f1f3f5(pebble)
+shade: #212529(Graphite)
+
+---------------BORDER RADIUS------------
+4px/8px/20px
+---------------SPACING SYSTEM----------
+will be added later
+
+*/
+
+/* -------------------------GLOBAL STYLES------------------------- */
+
+* {
+box-sizing:border-box ;
+margin: 0;
+padding: 0;
+
+}
+
+
+body {
+    font-family:'poppins',sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    color: #212529;
+}
+
+
+
+
+
+
+h1 {
+   text-align: center;
+   font-size: 62px;
+}
+
+h2 {
+   
+    font-size: 48px;
+}
+
+h3 {
+     
+     font-size: 40px;
+     
+}
+
+h4 {
+    
+     font-size: 32px;
+     
+}
+
+h5 {
+
+     font-size: 24px;
+
+}
+
+
+p {
+
+    font-size: 20px;
+
+}
+
+a {
+  
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+span {
+    display: inline-block;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+/*  -------------------------COMPONENTS-------------------------  */
+.btn {
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius:8px ;
+}
+
+.btn-primary:link, .btn-primary:visited {
+    color:#ffffff;
+    background-color:#339af0 ;
+    border: 2px solid #339af0;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    color:#ffffff;
+    background-color:#1c7ed6 ;
+    border: 2px solid #1c7ed6;
+}
+
+.btn-primary-outline:link, .btn-primary-outline:visited {
+    color:#339af0 ;
+    background-color: #ffffff;
+    border: 2px solid #339af0;
+}
+
+.btn-primary-outline:hover, .btn-primary-outline:active {
+    color:#1c7ed6 ;
+    background-color: #ffffff;
+    border: 2px solid #1c7ed6;
+}
+
+.btn-secondary:link, .btn-secondary:visited {
+    color: #ffffff;
+    background-color:#9775fa ;
+    border: 2px solid #9775fa;
+}
+
+.btn-secondary:hover, .btn-secondary:active {
+    color: #ffffff;
+    background-color:#7048e8 ;
+    border: 2px solid #7048e8 ;
+}
+
+.highlight{
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.highlight-primary {
+    background-color:#339af0 ;
+}
+.highlight-secondary {
+    background-color: #9775fa;
+}
+.highlight-tertiary {
+    background-color:#ff922b ;
+}
+
+/*  -------------------------SECTIONS-------------------------  */
+
+/*--------HERO SECTION--------  */
+.hero-section {
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.hero-heading {
+    margin-bottom: 10px;
+}
+
+.hero-paragraph {
+    margin-bottom: 50px;
+}
+
+/* ---------CTA AND FOOTER----------- */
+.cta-section {
+    text-align: center;
+    height: 400px;
+    margin-bottom: 300px;
+}
+
+.cta-card{
+    background-color: #339af0;
+    width: 1000px;
+    text-align: center;
+    padding: 100px 200px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.footer {
+    text-align: center;
+}
+
+.social-icons{
+       width: 20px;
+}
+/* -----------NAVBAR----------------- */
+.navbar {
+    margin-bottom: 200px;
+}
+
+/* -----------FEATURES SECTION---------- */
+
+.features-section {
+    margin-bottom: 300px;
+}
+
+
+.features-main-heading {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.feature-headings {
+   margin-bottom: 20px;
+}
+
+
+.features-primary-heading {
+    text-align: center;
+}
+
+.features-img{
+    width: 400px;
+}
+.logo-md{
+    width: 100px;
+}
+.logo-sm{
+    width: 80px;
+}
+
+
+
